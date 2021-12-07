@@ -1,0 +1,4 @@
+
+* run locally: `./gradlew bootRun`
+* debug locally: http://localhost:8080/playground
+* deploy to GCP: `./gradlew appengineDeploy`
