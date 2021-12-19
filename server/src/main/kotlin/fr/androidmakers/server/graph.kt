@@ -19,4 +19,8 @@ class RootQuery : Query {
   fun speakers(): List<Speaker> {
     return CachedData.speakers
   }
+
+  fun session(id: String): Session {
+    return CachedData.sessions.first { it.id == id }
+  }
 }
