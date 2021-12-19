@@ -1,5 +1,8 @@
 package fr.androidmakers.server.model
 
+import fr.androidmakers.server.CachedData
+import kotlin.coroutines.suspendCoroutine
+
 data class Room(
   val id: String,
   val name: String,
@@ -12,14 +15,21 @@ data class Session(
   val title: String,
   val description: String,
   val language: String?,
+  private val speakerIds: Set<String>,
   val complexity: String?,
-  val speakers: List<String>,
   val tags: List<String>,
   val icon: String?,
   val platformUrl: String?,
   val feedback: String?,
   val slido: String?,
-)
+) {
+  val speakers: List<Speaker>
+  get() {
+    return CachedData.speakers.filter {
+      speakerIds.contains(it.id)
+    }
+  }
+}
 
 data class Speaker(
   val id: String,

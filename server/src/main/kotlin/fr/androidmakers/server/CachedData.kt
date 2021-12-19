@@ -49,7 +49,7 @@ object CachedData {
         language = it.value.language,
         platformUrl = it.value.platformUrl,
         slido = it.value.slido,
-        speakers = it.value.speakers,
+        speakerIds = it.value.speakers.toSet(),
         tags = it.value.tags,
       )
     }
