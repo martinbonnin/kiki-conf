@@ -69,7 +69,7 @@ data class JsonTimeslot(
 @Serializable
 data class JsonTimeslotSession(
   val items: List<String>,
-  val extend: Int?,
+  val extend: Int? = null,
 )
 
 @Serializable
