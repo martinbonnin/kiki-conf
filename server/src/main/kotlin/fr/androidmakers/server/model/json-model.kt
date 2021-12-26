@@ -50,3 +50,30 @@ data class JsonSocial(
   val link: String,
   val name: String
 )
+
+typealias JsonSchedule = Map<String, JsonDay>
+
+@Serializable
+data class JsonDay(
+  val timeslots: List<JsonTimeslot>,
+  val tracks: List<JsonTrack>
+)
+
+@Serializable
+data class JsonTimeslot(
+  val startTime: String,
+  val endTime: String,
+  val sessions: List<JsonTimeslotSession>,
+)
+
+@Serializable
+data class JsonTimeslotSession(
+  val items: List<String>,
+  val extend: Int?,
+)
+
+@Serializable
+data class JsonTrack(
+  val title: String,
+  val infos: String,
+)
