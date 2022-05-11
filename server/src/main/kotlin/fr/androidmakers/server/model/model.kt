@@ -41,7 +41,7 @@ data class Session(
 
 data class Speaker(
   val id: String,
-  val order: Float?,
+  val order: String,
   val featured: Boolean,
   val name: String,
   val bio: String,

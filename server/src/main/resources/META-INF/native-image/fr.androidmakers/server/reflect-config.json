@@ -1,0 +1,278 @@
+[
+  {
+    "name": "fr.androidmakers.server.model.JsonDay"
+  },
+  {
+    "name": "fr.androidmakers.server.model.JsonRoom"
+  },
+  {
+    "name": "fr.androidmakers.server.model.JsonSession"
+  },
+  {
+    "name": "fr.androidmakers.server.model.JsonSocial"
+  },
+  {
+    "name": "fr.androidmakers.server.model.JsonSpeaker"
+  },
+  {
+    "name": "fr.androidmakers.server.model.JsonTimeslot"
+  },
+  {
+    "name": "fr.androidmakers.server.model.JsonTimeslotSession"
+  },
+  {
+    "name": "fr.androidmakers.server.model.JsonTrack"
+  },
+  {
+    "name": "fr.androidmakers.server.model.JsonDay$Companion",
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "fr.androidmakers.server.model.JsonRoom$Companion",
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "fr.androidmakers.server.model.JsonSession$Companion",
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "fr.androidmakers.server.model.JsonSocial$Companion",
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "fr.androidmakers.server.model.JsonSpeaker$Companion",
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "fr.androidmakers.server.model.JsonTimeslot$Companion",
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "fr.androidmakers.server.model.JsonTimeslotSession$Companion",
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "fr.androidmakers.server.model.JsonTrack$Companion",
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.expediagroup.graphql.server.spring.execution.SpringGraphQLServer",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allAnnotations": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.expediagroup.graphql.server.spring.GraphQLRoutesConfiguration",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "com.expediagroup.graphql.server.spring.GraphQLConfigurationProperties",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "com.expediagroup.graphql.server.spring.GraphQLExecutionConfiguration",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "graphql.schema.GraphQLSchema",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "com.expediagroup.graphql.generator.scalars.IDValueUnboxer",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "com.expediagroup.graphql.server.spring.execution.SpringGraphQLRequestParser",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "com.expediagroup.graphql.server.spring.execution.SpringGraphQLContextFactory",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "com.expediagroup.graphql.server.execution.GraphQLRequestHandler",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "com.expediagroup.graphql.server.spring.execution.SpringGraphQLServer",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "graphql.GraphQL",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "fr.androidmakers.server.RootQuery",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "kotlin.Float",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "kotlin.String",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "kotlin.Int",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "kotlin.Double",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "kotlin.Boolean",
+    "queryAllDeclaredConstructors": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredFields": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allAnnotations": true
+  },
+  {
+    "name": "kotlin.reflect.jvm.internal.ReflectionFactoryImpl",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "kotlin.KotlinVersion",
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "kotlin.KotlinVersion[]"
+  },
+  {
+    "name": "kotlin.KotlinVersion$Companion"
+  },
+  {
+    "name": "kotlin.KotlinVersion$Companion[]"
+  },
+  {
+    "name": "fr.androidmakers.server.model.Social"
+  },
+  {
+    "name": "com.expediagroup.graphql.server.types.GraphQLServerRequestDeserializer"
+  }
+]

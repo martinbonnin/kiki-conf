@@ -2,6 +2,8 @@ package fr.androidmakers.server
 
 import fr.androidmakers.server.model.*
 import kotlinx.serialization.ExperimentalSerializationApi
+import kotlinx.serialization.builtins.MapSerializer
+import kotlinx.serialization.builtins.serializer
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.decodeFromStream
 import java.text.SimpleDateFormat
@@ -27,7 +29,7 @@ object CachedData {
   @OptIn(ExperimentalSerializationApi::class)
   fun initialize() {
     _rooms = this.javaClass.classLoader.getResourceAsStream("rooms.json").use {
-      json.decodeFromStream<JsonRoomData>(it)
+      json.decodeFromStream(MapSerializer(String.serializer(), JsonRoom.serializer()), it)
     }.map {
       Room(
         id = it.key,
@@ -38,11 +40,11 @@ object CachedData {
     }
 
     val slots = this.javaClass.classLoader.getResourceAsStream("schedule.json").use {
-      json.decodeFromStream<JsonSchedule>(it)
+      json.decodeFromStream(MapSerializer(String.serializer(), JsonDay.serializer()), it)
     }.toSlots()
 
     _sessions = this.javaClass.classLoader.getResourceAsStream("sessions.json").use {
-      json.decodeFromStream<JsonSessionData>(it)
+      json.decodeFromStream(MapSerializer(String.serializer(), JsonSession.serializer()), it)
     }.mapNotNull { entry ->
       val slot = slots.firstOrNull {
         it.sessionId == entry.key
@@ -72,7 +74,7 @@ object CachedData {
     }
 
     _speakers = this.javaClass.classLoader.getResourceAsStream("speakers.json").use {
-      json.decodeFromStream<JsonSpeakerData>(it)
+      json.decodeFromStream(MapSerializer(String.serializer(), JsonSpeaker.serializer()), it)
     }.map {
       Speaker(
         id = it.key,
@@ -85,7 +87,7 @@ object CachedData {
         companyLogo = it.value.companyLogo,
         country = it.value.country,
         featured = it.value.featured,
-        order = it.value.order,
+        order = it.value.order.toString(),
         socials = it.value.socials.map { jsonSocial ->
           Social(
             icon = jsonSocial.icon,

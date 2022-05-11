@@ -1,2 +1,5 @@
 graphql:
   packages: "fr.androidmakers.server"
+
+me:
+  test: "hello"
